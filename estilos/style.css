@@ -8,7 +8,7 @@
 html,body{
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-color:;
 }
 body{
       background: url(../imagens/background2.avif) no-repeat top center;
@@ -37,4 +37,24 @@ iframe#tela{
     width: 232px;
     height: 485px;
     border-radius: 35px 35px 35px 35px;
+}
+#redes sociais{
+text-align: right;
+
+
+}
+section#redes-sociais, img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: (2px 2px 5px rgba(0, 0, 0, 0.304)
+    );
+    box-sizing: border-box;
+   
+}
+section#redes sociais,img:hover{
+   border: 2px solid rgba(255, 255, 255, 0.87);
+   transform: translate(5px 5px);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.296);
+   transition: transform .3s, .8s;
 }
